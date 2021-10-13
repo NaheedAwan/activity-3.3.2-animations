@@ -8,6 +8,6 @@ main {
 
 @keyframes main-ani {
     0% { background-color: rgb(255, 255, 255)}
-    75% { background-color: rgb(255, 160, 255); transform: translate(20px, 0px);}
+    75% { background-color: rgb(255, 160, 255); transform: skew(45deg, 0deg);}
     100% { background-color:rgb(99, 19, 92); transform: translate(2000px, 90px);}
 }
