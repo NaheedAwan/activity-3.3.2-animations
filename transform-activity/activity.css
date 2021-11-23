@@ -1,13 +1,14 @@
 main {
-    animation-name: main-ani;
-    transform: scale(2, 0.5);
-    animation-duration: 10s;
-    animation-iteration-count: 10;
+    /* animation-name: main-ani; */
+    /* transform: scale(2, 0.5); */
+    /* animation-duration: 10s;
+    animation-iteration-count: 10; */
+    transform: skew(10deg) rotate(-10deg);
     
 }
 
-@keyframes main-ani {
+/* @keyframes main-ani {
     0% { background-color: rgb(255, 255, 255)}
     75% { background-color: rgb(255, 160, 255); transform: skew(45deg, 0deg);}
     100% { background-color:rgb(99, 19, 92); transform: translate(2000px, 90px);}
-}
+} */

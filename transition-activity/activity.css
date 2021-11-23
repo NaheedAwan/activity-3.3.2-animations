@@ -2,3 +2,10 @@ button {
     background-color: ghostwhite ;
     transition: 2s;
 }
+.transform{
+    transition: 2s;
+}
+.transform:hover{
+    background-color: cornflowerblue;
+    color: ghostwhite;
+}
